@@ -3,7 +3,6 @@ env:
   - RAILS_VERSION=3.2.22
   - RAILS_VERSION=4.2.5
   - RAILS_VERSION=5.0.0.beta1
-  - RAILS_VERSION=master
 rvm:
   - 2.1.8
   - 2.2.4
@@ -12,6 +11,4 @@ matrix:
   exclude:
     - rvm: 2.1.8
       env: RAILS_VERSION=5.0.0.beta1
-    - rvm: 2.1.8
-      env: RAILS_VERSION=master
 before_install: gem install bundler -v 1.11.2
