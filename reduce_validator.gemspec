@@ -1,7 +1,6 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'reduce_validator'
 
 rails_version = ENV['RAILS_VERSION'] || 'default'
 
@@ -17,7 +16,7 @@ rails_version =
 
 Gem::Specification.new do |spec|
   spec.name          = 'reduce_validator'
-  spec.version       = ReduceValidator::VERSION
+  spec.version       = '0.1.0'
   spec.authors       = ['Christoph Lupprich']
   spec.email         = ['christoph@luppri.ch']
 

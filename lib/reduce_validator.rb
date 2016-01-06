@@ -1,8 +1,6 @@
-require 'active_model/validator.rb'
+require 'active_model/validator'
 
 class ReduceValidator < ActiveModel::EachValidator
-  VERSION = '0.1.0'
-
   def validate_each(record, attribute, _value)
     return until record.errors.include?(attribute)
 
