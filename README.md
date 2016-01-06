@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/clupprich/reduce_validator.svg?branch=master)](https://travis-ci.org/clupprich/reduce_validator)
+
 ## Installation
 
 Add this line to your application's Gemfile:
