@@ -18,7 +18,9 @@ Or install it yourself as:
 
 Add the `ReduceValidator` to the end of your `validates` statement like so:
 
-    validates :name, presence: true, length: { minimum: 5 }, reduce: true
+```ruby
+validates :name, presence: true, length: { minimum: 5 }, reduce: true
+```
 
 ## Development
 
