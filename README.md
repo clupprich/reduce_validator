@@ -34,6 +34,9 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/clupprich/reduce_validator.
 
+## Credits
+
+The original idea for this validator came from an answer in this [Stack Overflow thread](http://stackoverflow.com/questions/2569401/rails-validation-error-messages-displaying-only-one-error-message-per-field).
 
 ## License
 
