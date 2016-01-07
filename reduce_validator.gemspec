@@ -14,7 +14,7 @@ rails_version =
 
 Gem::Specification.new do |spec|
   spec.name          = 'reduce_validator'
-  spec.version       = '0.1.0'
+  spec.version       = '0.1.1'
   spec.authors       = ['Christoph Lupprich']
   spec.email         = ['christoph@luppri.ch']
 
