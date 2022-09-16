@@ -7,14 +7,14 @@ rails_version = ENV['RAILS_VERSION'] || 'default'
 rails_version =
   case rails_version
   when 'default'
-    '>= 3.2.0'
+    '>= 7.0.0'
   else
     "~> #{ENV['RAILS_VERSION']}"
   end
 
 Gem::Specification.new do |spec|
   spec.name          = 'reduce_validator'
-  spec.version       = '0.1.1'
+  spec.version       = '0.1.2'
   spec.authors       = ['Christoph Lupprich']
   spec.email         = ['christoph@luppri.ch']
 
@@ -31,7 +31,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'activemodel', rails_version
   spec.add_dependency 'activesupport', rails_version
 
-  spec.add_development_dependency 'bundler', '~> 1.11'
-  spec.add_development_dependency 'rake', '~> 10.0'
+  spec.add_development_dependency 'bundler', '~> 2'
+  spec.add_development_dependency 'rake', '~> 13'
   spec.add_development_dependency 'rspec', '>= 0'
 end
