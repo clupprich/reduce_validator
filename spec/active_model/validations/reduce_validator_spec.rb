@@ -4,7 +4,7 @@ class TestUser < TestModel
   validates :name, presence: true, length: { minimum: 4 }, reduce: true
 end
 
-describe ReduceValidator do
+describe ActiveModel::Validations::ReduceValidator do
   it 'is valid when name is present' do
     expect(TestUser.new(name: 'John')).to be_valid
   end
